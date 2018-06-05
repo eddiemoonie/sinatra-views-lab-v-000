@@ -10,7 +10,6 @@ class App < Sinatra::Base
 
   get '/goodbye' do
     erb :goodbye
-    <%= time.no
   end
 
   get '/date' do
